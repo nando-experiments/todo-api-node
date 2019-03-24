@@ -5,6 +5,7 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Dependecies](#dependecies)
+- [Dev dependecies](#dev-dependecies)
 - [Support](#support)
 - [Contributing](#contributing)
 - [History](#history)
