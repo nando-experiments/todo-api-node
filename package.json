@@ -1,0 +1,33 @@
+{
+  "name": "todo-api-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon",
+    "prod": "pm2 start ./src/index.js --name todo-app",
+    "start": "npm run prod",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nando-experiments/todo-api-node.git"
+  },
+  "keywords": [],
+  "author": "Fernando Moreira <nandomoreira.me@gmail.com> (https://nandomoreira.me/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nando-experiments/todo-api-node/issues"
+  },
+  "homepage": "https://github.com/nando-experiments/todo-api-node#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.19",
+    "node-restful": "^0.2.6",
+    "pm2": "^3.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
